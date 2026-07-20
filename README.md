@@ -319,4 +319,4 @@ Processo de Vulnerabilidades: "Explique a diferença entre CVE (Common Vulnerabi
 
 Estratégia de Backup: "Descreva a regra de backup 3-2-1 e por que ela é considerada essencial na defesa contra Ransomware conforme os vídeos do curso."
 
-
+Esse repositório continuará com atualizações baseadas no desenvolvimento desse Notebook.
