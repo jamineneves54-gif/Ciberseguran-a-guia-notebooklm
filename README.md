@@ -177,6 +177,146 @@ Ophcrack: Utiliza tabelas arco-íris (Rainbow Tables) para quebrar senhas do Win
 .
 Para iniciantes, as fontes recomendam o uso da distribuição Kali Linux, que já traz a maioria dessas ferramentas pré-instaladas e configuradas para uso imediato em um ambiente de laboratório."
 
+# MINIGUIA
 
+1. Reconhecimento e Inteligência de Fontes Abertas (OSINT)
+Shodan: Motor de busca para dispositivos conectados à internet, essencial para descobrir servidores, roteadores e dispositivos IoT vulneráveis
+.
+Maltego: Ferramenta líder para coleta de dados e visualização de relações entre pessoas, empresas e infraestrutura de rede
+.
+FOCA (Fingerprinting Organizations with Collected Archives): Especializada na extração de metadados de documentos públicos para mapear redes internas
+.
+Amass: Utilizada para a enumeração ativa e passiva de subdomínios, auxiliando no mapeamento da superfície de ataque
+.
+TheHarvester (Goog Mail Enum): Ferramenta para coletar endereços de e-mail e subdomínios através de motores de busca como o Google
+.
+2. Varredura de Rede e Vulnerabilidades
+Nmap (Network Mapper): A ferramenta padrão para descoberta de hosts, mapeamento de portas abertas e identificação de sistemas operacionais
+.
+Nessus / OpenVAS / QualysGuard: Scanners de vulnerabilidades abrangentes que identificam falhas conhecidas, patches ausentes e erros de configuração
+.
+GFI LANguard: Scanner versátil para varredura de portas, auditoria de segurança de rede e gerenciamento de patches
+.
+RustScan: Um scanner de portas extremamente rápido escrito em Rust, capaz de varrer milhares de portas em segundos
+.
+3. Exploração e Pós-Exploração
+Metasploit Framework: A plataforma de exploração mais utilizada para desenvolver, testar e executar exploits contra alvos remotos
+.
+PowerShell Empire / Covenant: Frameworks de comando e controle (C2) focados em ambientes Windows para manter persistência e realizar movimentação lateral
+.
+BeEF (Browser Exploitation Framework): Focado em explorar vulnerabilidades de navegadores web para comprometer máquinas de usuários finais
+.
+Mimikatz: Ferramenta essencial para extrair senhas, hashes e tickets Kerberos da memória do Windows
+.
+4. Auditoria de Aplicações Web
+Burp Suite: Um proxy de interceptação indispensável para analisar, modificar e automatizar ataques contra tráfego HTTP/HTTPS
+.
+sqlmap: Ferramenta automatizada para detectar e explorar falhas de injeção de SQL em bancos de dados
+.
+Nuclei: Scanner de vulnerabilidades moderno baseado em modelos (templates) personalizáveis para identificar falhas em serviços web
+.
+Acunetix / WebInspect: Scanners comerciais poderosos para análise profunda de aplicações web em busca de XSS e outras vulnerabilidades complexas
+.
+5. Análise de Tráfego e Protocolos
+Wireshark (antigo Ethereal): O analisador de protocolos de rede padrão para capturar e inspecionar tráfego de dados detalhadamente
+.
+NetCat (NCat): Conhecida como o "canivete suíço" do TCP/IP, usada para leitura, escrita e redirecionamento de dados na rede
+.
+Responder: Ferramenta para envenenamento de protocolos de rede (LLMNR, NBT-NS) e captura de hashes de autenticação em redes locais
+.
+6. Engenharia Reversa e Análise de Malware
+IDA Pro: Considerado o melhor desassemblador e depurador para engenharia reversa de binários em Windows e outras plataformas
+.
+Ghidra: Ferramenta de engenharia reversa de código aberto desenvolvida pela NSA, uma alternativa robusta ao IDA Pro
+.
+Volatility: Framework líder para análise forense de memória RAM, essencial para investigar malwares residentes na memória
+.
+pestudio: Utilitário para realizar a análise estática inicial de arquivos executáveis suspeitos, verificando hashes e strings
+.
+7. Quebra de Senhas
+John the Ripper: Quebrador de senhas multiplataforma extremamente versátil, suportando centenas de tipos de hashes
+.
+Cain & Abel: Ferramenta multifuncional para Windows capaz de recuperar senhas, farejar pacotes e realizar envenenamento ARP
+.
+Ophcrack: Utiliza tabelas arco-íris (Rainbow Tables) para quebrar senhas do Windows de forma quase instantânea
+.
+Para iniciantes, as fontes recomendam o uso da distribuição Kali Linux, que já traz a maioria dessas ferramentas pré-instaladas e configuradas para uso imediato em um ambiente de laboratório
+.
+
+# MINIGUIA
+
+Este Miniguia de Estudo de Cibersegurança consolida o conhecimento extraído das fontes para servir como material de referência técnica e estratégica para um hacker ético.
+
+# Resumos Estruturados do Assunto
+O Mindset do Hacker Ético e a Tríade CIA
+O hackeamento ético consiste na aplicação de técnicas ofensivas para propósitos defensivos, sempre com autorização prévia e dentro da legalidade
+
+. O objetivo central é proteger a Tríade de Segurança:
+Confidencialidade: Garantir que os dados sejam acessados apenas por pessoas autorizadas
+.
+Integridade: Assegurar que as informações não sofram alterações indevidas
+.
+Disponibilidade: Garantir que sistemas e dados estejam acessíveis quando necessários
+.
+Metodologia de Teste de Invasão (Pentest)
+O processo segue fases lógicas para identificar e mitigar riscos
+:
+Reconhecimento (OSINT): Coleta de informações públicas sobre o alvo usando ferramentas como Google Dorks, Shodan e Maltego
+.
+Varredura e Enumeração: Identificação de hosts ativos e portas abertas, utilizando principalmente o Nmap
+.
+Avaliação de Vulnerabilidades: Uso de scanners como Nessus ou QualysGuard para encontrar falhas conhecidas e patches ausentes
+.
+Exploração: Tentativa de ganhar acesso efetivo ao sistema. O Metasploit Framework é a ferramenta padrão para executar exploits contra falhas identificadas
+.
+Pós-Exploração e Relatório: Manutenção do acesso e documentação detalhada de todas as descobertas e recomendações de correção
+.
+Linux: A Base do Profissional
+O Linux é essencial porque a maioria das ferramentas de segurança e servidores operam nele
+. Comandos fundamentais incluem:
+ls -la: Lista arquivos e permissões detalhadas
+.
+grep: Busca padrões em logs e arquivos de configuração
+.
+ss -tulpn: Exibe conexões de rede e portas em escuta
+.
+chmod / chown: Gerencia permissões e proprietários, pontos críticos de segurança
+.
+
+# Glossário de Conceitos Principais
+
+Vulnerabilidade: Uma falha ou "buraco" na segurança do sistema que pode ser explorado
+.
+Exploit: Ferramenta, código ou conjunto de instruções usado para tirar proveito de uma vulnerabilidade
+.
+Payload: O código malicioso que é efetivamente entregue ao alvo após a exploração da falha
+.
+OSINT (Open Source Intelligence): Métodos de coleta de dados de fontes públicas para análise de inteligência
+.
+Engenharia Social: Manipulação psicológica de pessoas para obter informações ou acesso
+.
+Phishing: Ataque que usa comunicações fraudulentas (e-mail, SMS) para enganar usuários
+.
+Ransomware: Malware que sequestra dados via criptografia e exige resgate
+.
+Ataque Man-in-the-Middle (MITM): Interceptação de comunicação entre duas partes sem que elas percebam
+.
+DDoS (Distributed Denial of Service): Ataque massivo que sobrecarrega um serviço usando múltiplos computadores (botnets) até torná-lo indisponível
+.
+Tabela Arco-íris (Rainbow Table): Tabelas pré-computadas de hashes usadas para quebrar senhas de forma rápida
+.
+# Prompts Reutilizáveis para Revisão
+
+Revisão de Comandos Linux: "Com base nas fontes, explique como os comandos find, grep e ss são utilizados especificamente em investigações de incidentes de segurança."
+
+Análise de Ferramentas: "Faça um comparativo entre as ferramentas de auditoria web Burp Suite e Acunetix, destacando suas funções principais conforme as fontes."
+
+Cenário de Engenharia Social: "Descreva os gatilhos mentais comuns (como urgência e autoridade) mencionados nas fontes e como um hacker ético pode testar a resistência dos funcionários a eles."
+
+Mitigação de Ataques: "Quais são as dez medidas defensivas sugeridas nas fontes para proteger roteadores domésticos e redes Wi-Fi?"
+
+Processo de Vulnerabilidades: "Explique a diferença entre CVE (Common Vulnerabilities and Exposures) e CWE (Common Weakness Enumeration) com base no material fornecido."
+
+Estratégia de Backup: "Descreva a regra de backup 3-2-1 e por que ela é considerada essencial na defesa contra Ransomware conforme os vídeos do curso."
 
 
