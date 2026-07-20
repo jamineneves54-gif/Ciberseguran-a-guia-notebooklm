@@ -11,7 +11,9 @@ Para garantir a qualidade e a confiabilidade das informações, todo o conteúdo
 
 # Curadoria de Fontes: 
 https://ibsec.com.br/10-comandos-linux-para-iniciantes-em-ciberseguranca/
+
 https://ibsec.com.br/falhas-no-fortinet-fortisandbox-acao-imediata-necessaria/
+
 https://ibsec.com.br/fortinet-fortisandbox-exploracao-de-vulnerabilidades-ativas/
 
 # Engenharia de Prompts e "Cicatrizes"
