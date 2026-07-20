@@ -16,6 +16,10 @@ https://ibsec.com.br/falhas-no-fortinet-fortisandbox-acao-imediata-necessaria/
 
 https://ibsec.com.br/fortinet-fortisandbox-exploracao-de-vulnerabilidades-ativas/
 
+https://ibsec.com.br/cve-2026-63030-vulnerabilidade-critica-no-wordpress/
+
+https://ibsec.com.br/cve-2026-58644-mitigue-a-falha-no-sharepoint/
+
 # Engenharia de Prompts e "Cicatrizes"
 1 Prompt que usei, eu apenas perguntei de forma direta na tentativa de puxar o máximo de informações possíveis.
 
