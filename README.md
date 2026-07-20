@@ -19,7 +19,7 @@ https://ibsec.com.br/fortinet-fortisandbox-exploracao-de-vulnerabilidades-ativas
 
 Segue Prompt: Quais as ferramentas essenciais para um kit de hackeamento ético?
 
-Resposta que obtive: Um kit de ferramentas de hackeamento ético eficiente deve abranger todas as fases de um teste de invasão, desde o reconhecimento inicial até a exploração e pós-exploração
+Resposta que obtive: "Um kit de ferramentas de hackeamento ético eficiente deve abranger todas as fases de um teste de invasão, desde o reconhecimento inicial até a exploração e pós-exploração
 . Segundo as fontes, as ferramentas essenciais podem ser categorizadas da seguinte forma:
 1. Reconhecimento e Coleta de Informações (OSINT)
 Esta fase foca em descobrir o máximo possível sobre o alvo através de fontes públicas
@@ -107,13 +107,13 @@ NetStumbler: Utilizado para descobrir redes sem fio e medir a intensidade de seu
 .
 BlueZ (hciconfig, hcitool): Ferramentas para reconhecimento e auditoria de dispositivos Bluetooth
 .
-Para iniciantes, recomenda-se o uso de distribuições Linux especializadas como Kali Linux ou BackTrack, que já vêm com a maioria dessas ferramentas pré-instaladas e configuradas
+Para iniciantes, recomenda-se o uso de distribuições Linux especializadas como Kali Linux ou BackTrack, que já vêm com a maioria dessas ferramentas pré-instaladas e configuradas."
 
 #2 Eu refinei o prompt usando a técnica de "Definir o tipo de saída", na tentativa que ele me touxesse uma lista. Aqui usei também a técnica de "Indicação" para pedir que ele liste as ferramentas que ele julga como mais importantes de aprender.
 
 Segue Prompt: Agora traga as ferramentas que você julga serem as mais importantes, baseado nas fontes, em formato de lista.
 
-Resposta que obtive: Com base nas fontes fornecidas, as ferramentas mais importantes para um kit de hackeamento ético podem ser categorizadas de acordo com sua função no ciclo de um teste de invasão. Abaixo estão as principais ferramentas citadas:
+Resposta que obtive: "Com base nas fontes fornecidas, as ferramentas mais importantes para um kit de hackeamento ético podem ser categorizadas de acordo com sua função no ciclo de um teste de invasão. Abaixo estão as principais ferramentas citadas:
 1. Reconhecimento e Inteligência de Fontes Abertas (OSINT)
 Shodan: Motor de busca para dispositivos conectados à internet, essencial para descobrir servidores, roteadores e dispositivos IoT vulneráveis
 .
@@ -175,7 +175,7 @@ Cain & Abel: Ferramenta multifuncional para Windows capaz de recuperar senhas, f
 .
 Ophcrack: Utiliza tabelas arco-íris (Rainbow Tables) para quebrar senhas do Windows de forma quase instantânea
 .
-Para iniciantes, as fontes recomendam o uso da distribuição Kali Linux, que já traz a maioria dessas ferramentas pré-instaladas e configuradas para uso imediato em um ambiente de laboratório.
+Para iniciantes, as fontes recomendam o uso da distribuição Kali Linux, que já traz a maioria dessas ferramentas pré-instaladas e configuradas para uso imediato em um ambiente de laboratório."
 
 
 
